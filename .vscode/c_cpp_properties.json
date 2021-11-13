@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "ESP32-Win",
+            "includePath": [
+                "${workspaceRoot}/**",
+                "~/esp/esp-idf/components/**",
+                "~/.espressif/tools/xtensa-esp32-elf/**"
+            ],
+            "intelliSenseMode": "linux-gcc-x86",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}/**",
+                    "~/esp/esp-idf/components/**",
+                    "~/.espressif/tools/xtensa-esp32-elf/**"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "configurationProvider": "vector-of-bool.cmake-tools",
+            "compilerPath": "~/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc",
+            "compilerArgs": [
+                "-Wall",
+                "-Wpedantic",
+                "-Wextra"
+            ]
+        }
+    ],
+    "version": 4
+}
